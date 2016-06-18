@@ -31,7 +31,7 @@
 
     <link href="style.css" rel="stylesheet">
 
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,700,300' rel='stylesheet' type='text/css'>
 	   
 
   </head>
@@ -77,14 +77,35 @@
           </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
       </nav>
-      
+      <div class="container-fluid Section1 animatedParent" data-sequence='500'>
+        <div class="row">
+          <div class="col-sm-12 main-content">
+            <div class="col-sm-6 iphone-style animated fadeInUpShort" data-id='1'>
+              <img src="img/screen.gif" class="img-responsive img-center">
+            </div>
+            <div class="col-sm-6 iphone-content">
+              <h3 class="animated fadeInRight" data-id='2'>Do you Know</h3>
+              <h1 class="animated fadeInRight" data-id='3'>One Solution</h1>
+              <h2 class="animated fadeInRight" data-id='4'>for your Qualifications</h2>
+              <div class="col-sm-12">
+                <ul class="list-unstyled">
+                  <li class="animated fadeIn" data-id='5'><i class="fa fa-check" aria-hidden="true"></i> Never forget to renew an expiring qualification</li>
+                  <li class="animated fadeIn" data-id='6'><i class="fa fa-check" aria-hidden="true"></i> Never misplace certificates or training records</li>
+                  <li class="animated fadeIn" data-id='7'><i class="fa fa-check" aria-hidden="true"></i> Never pay to have a qualification verified</li>
+                  <li class="animated fadeIn" data-id='8'><i class="fa fa-check" aria-hidden="true"></i> Never have to file hard copies of qualifications and certificates</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
     <!-- Scripts -->
     <script>
     	$(document).ready(
 
       function() { 
-        $("html").niceScroll();
+        $("body").niceScroll();
       }
 
     );

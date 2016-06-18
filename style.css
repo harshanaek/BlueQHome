@@ -7,7 +7,7 @@ body{
 
     
 
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
 
 	position: relative;
 
@@ -36,7 +36,9 @@ h1 {
     background-color: #5fb6ec;
     border-color: #5fb6ec;
 }
-
+.img-center{
+    margin: 0 auto;
+}
 /*Navigation Styles*/
 
 .navbar-default{
@@ -82,22 +84,43 @@ h1 {
     background: #3f7da5;
 }
 
-/*Page Header*/
-.page-header {
-    margin: 0 0 10px 0;
-    padding: 0;
-    border: 0;
+/*Main Content*/
+.main-content{
+    background: url("img/bg-header-2.jpg");
+}
+.iphone-style{
     position: relative;
+    top: 150px;
 }
-.btn.btn-header-right {
-    position: absolute;
-    right: 0;
-    top: 50%;
-    margin-top: -20px;
+.iphone-content h2, h3, h1{
+    margin:0;
+    color: #fff;
 }
-
-
-
+.iphone-content h1{
+    font-size: 67px;
+}
+.iphone-content h2{
+    font-size: 40px;
+}
+.iphone-content h3{
+    font-weight: 300;
+    font-size: 27px;
+}
+.iphone-content{
+    position: relative;
+    top: 150px
+}
+.iphone-content .list-unstyled .fa-check{
+    color: #7ADC53;
+}
+.iphone-content .list-unstyled{
+    margin-top: 20px;
+}
+.iphone-content .list-unstyled li{
+    color: #fff;
+    line-height: 50px;
+    font-size: 18px;
+}
 /*Media Queries*/
 
 /* Small devices (tablets, 768px and up) */
