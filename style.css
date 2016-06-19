@@ -84,13 +84,14 @@ h1 {
     background: #3f7da5;
 }
 
-/*Main Content*/
+/*Section 1*/
 .main-content{
     background: url("img/bg-header-2.jpg");
+    background-size: cover;
 }
 .iphone-style{
     position: relative;
-    top: 150px;
+    top: 100px;
 }
 .iphone-content h2, h3, h1{
     margin:0;
@@ -108,7 +109,7 @@ h1 {
 }
 .iphone-content{
     position: relative;
-    top: 150px
+    top: 130px
 }
 .iphone-content .list-unstyled .fa-check{
     color: #7ADC53;
@@ -121,6 +122,37 @@ h1 {
     line-height: 50px;
     font-size: 18px;
 }
+.Section1{
+    margin-bottom: 120px;
+}
+/*Section 2*/
+.Section2 h1{
+    color: #000;
+    font-weight: 100;
+    text-align: center;
+}
+.Section2 .circle-icon>i{
+    font-size: 70px;
+    margin-top: 13px;
+}
+.Section2 h1{
+    margin-bottom: 30px;
+}
+.Section2 p{
+    text-align: center;
+}
+.circle-icon {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #63B7EA;
+    color: #FFF;
+    margin: 0 auto 20px auto;
+    text-align: center;
+}
+
+
+
 /*Media Queries*/
 
 /* Small devices (tablets, 768px and up) */
