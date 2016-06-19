@@ -30,7 +30,7 @@ h1{
     font-weight: 100;
     text-align: center;
 }
-.Boxshadow-Botton{
+.bx-shadow{
     -webkit-box-shadow: 0px 4px 6px -2px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 4px 6px -2px rgba(0,0,0,0.75);
     box-shadow: 0px 4px 6px -2px rgba(0,0,0,0.75);
@@ -134,51 +134,21 @@ h1{
 .section-header {
     margin-bottom: 50px;
 }
+
 /*Navigation Styles*/
-
-.navbar-default{
-    background-color: #5fb6ec;
+.navbar-default {
+    background-color: #fff;
+    border-color: #fff;
 }
-.navbar-form>.btn-default{
-    background-color: rgba(195, 9, 9, 0);
-    border-color: rgba(204, 204, 204, 0);
-    color: #fff;
+.navbar-default .navbar-nav>li>a {
+    font-size: 18px;
 }
-.navbar-form>.form-group>.form-control{
-    height: 30px
+.navbar-header{
+    padding: 5px 0;
 }
-.navbar-right li a{
-    color: #fff !important;
-    font-weight: 500;
-    font-size: 1.2em;
+.navbar-nav>li>a {
+    line-height: 40px;
 }
-.navbar-form{
-    margin-top: 10px;
-    margin-bottom: 6px;
-}
-.nav>li>a>img {
-    max-width: 45px;
-}
-.navbar-right .dropdown-toggle{
-    padding-bottom: 0;
-    padding-top: 2px;
-}
-.navbar-default .navbar-nav>.open>a{
-    background-color: rgba(231, 231, 231, 0);
-}
-.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
-    background-color: rgba(231, 231, 231, 0);  
-}
-.dropdown-menu{
-    background: #5fb6ec;
-}
-.navbar-right li a:hover{
-    background: #3f7da5;
-}
-.navbar-right li:hover{
-    background: #3f7da5;
-}
-
 /*Section 1*/
 .main-content{
     background: url("img/bg-header-2.jpg");
@@ -419,16 +389,7 @@ h1{
 }
 
 /* Medium devices (desktops, 992px and up) */
-@media (max-width: 992px) { 
-    .navbar-brand {
-    position: absolute;
-    top: 10px;
-    left: 50%;
-    margin-left: -40px;
-    padding: 0;
-    height: auto;
-    z-index: 1010;
-    } 
+@media (max-width: 992px) {
 }
 
 /* Large devices (large desktops, 1200px and up) */
@@ -436,4 +397,42 @@ h1{
     .navbar-nav>li {
         margin-top: 6px;
     }
+
+}
+
+.cl-effect-1 a{
+    color: #5fb6ec !important;
+}
+.cl-effect-1 a::before,
+.cl-effect-1 a::after {
+    display: inline-block;
+    opacity: 0;
+    -webkit-transition: -webkit-transform 0.3s, opacity 0.2s;
+    -moz-transition: -moz-transform 0.3s, opacity 0.2s;
+    transition: transform 0.3s, opacity 0.2s;
+}
+
+.cl-effect-1 a::before {
+    margin-right: 10px;
+    content: '[';
+    -webkit-transform: translateX(20px);
+    -moz-transform: translateX(20px);
+    transform: translateX(20px);
+}
+
+.cl-effect-1 a::after {
+    margin-left: 10px;
+    content: ']';
+    -webkit-transform: translateX(-20px);
+    -moz-transform: translateX(-20px);
+    transform: translateX(-20px);
+}
+.cl-effect-1 a:hover::before,
+.cl-effect-1 a:hover::after,
+.cl-effect-1 a:focus::before,
+.cl-effect-1 a:focus::after {
+    opacity: 1;
+    -webkit-transform: translateX(0px);
+    -moz-transform: translateX(0px);
+    transform: translateX(0px);
 }
