@@ -2,7 +2,7 @@
 
 <html lang="en">
 
-  <head>
+<head>
 
     <meta charset="utf-8">
 
@@ -14,12 +14,12 @@
 
     <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
 
-		    
+
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 
     <script src="js/jquery.nicescroll.min.js"></script>
 
-    
+
 
     <!-- Bootstrap -->
 
@@ -27,186 +27,222 @@
 
     <link href="css/font-awesome.min.css" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/animations.css" type="text/css">   
+    <link rel="stylesheet" href="css/animations.css" type="text/css">
+
+    <link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css">
 
     <link href="style.css" rel="stylesheet">
 
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,700,300' rel='stylesheet' type='text/css'>
-	   
 
-  </head>
 
-  <body>
-      <nav class="navbar  navbar-default navbar-fixed-top">
+</head>
+
+<body>
+    <nav class="navbar  navbar-default navbar-fixed-top">
         <div class="container">
-          <!-- Brand and toggle get grouped for better mobile display -->
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="/">
-              <img src="images/Logo/logo-rounded.png" class="png-alternative">
-            </a>
-          </div>
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/">
+                    <img src="images/Logo/logo-rounded.png" class="png-alternative">
+                </a>
+            </div>
 
-          <!-- Collect the nav links, forms, and other content for toggling -->
-          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <form class="navbar-form navbar-left" role="search">
-              <div class="form-group">
-                <input type="text" class="form-control" placeholder="Search">
-              </div>
-              <button type="submit" class="btn btn-default"><i class="fa fa-search fa-1x" aria-hidden="true"></i></button>
-            </form>
-            <ul class="nav navbar-nav navbar-right">
-              <li><a href="#">Qualifications</a></li>
-              <li><a href="#">Notifications</a></li>
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><img src="images/profilePic.jpg" alt="..." class="img-circle"><span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                  <li><a href="#">Qualifications</a></li>
-                  <li><a href="#">Notifications</a></li>
-                  <li><a href="#">Something else here</a></li>
-                  <li role="separator" class="divider"></li>
-                  <li><a href="#">Separated link</a></li>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <form class="navbar-form navbar-left" role="search">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                    </div>
+                    <button type="submit" class="btn btn-default"><i class="fa fa-search fa-1x" aria-hidden="true"></i></button>
+                </form>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Qualifications</a></li>
+                    <li><a href="#">Notifications</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><img src="images/profilePic.jpg" alt="..." class="img-circle"><span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Qualifications</a></li>
+                            <li><a href="#">Notifications</a></li>
+                            <li><a href="#">Something else here</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">Separated link</a></li>
+                        </ul>
+                    </li>
                 </ul>
-              </li>
-            </ul>
-          </div><!-- /.navbar-collapse -->
+            </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
-      </nav>
-      <div class="container-fluid Section1 animatedParent" data-sequence='500'>
+    </nav>
+    <div class="container-fluid Section1 animatedParent animateOnce" data-sequence='500'>
         <div class="row">
-          <div class="col-sm-12 main-content">
-            <div class="col-sm-6 iphone-style animated fadeInUpShort" data-id='1'>
-              <img src="img/screen.gif" class="img-responsive img-center">
+            <div class="col-sm-12 main-content">
+                <div class="col-sm-6 iphone-style animated fadeInUpShort" data-id='1'>
+                    <img src="img/screen.gif" class="img-responsive img-center">
+                </div>
+                <div class="col-sm-6 iphone-content">
+                    <h3 class="animated fadeInRightShort" data-id='2'>Do you Know</h3>
+                    <h1 class="animated fadeInRightShort" data-id='3'>One Solution</h1>
+                    <h2 class="animated fadeInRightShort" data-id='4'>for your Qualifications</h2>
+                    <div class="col-sm-12">
+                        <ul class="list-unstyled">
+                            <li class="animated fadeIn" data-id='5'><i class="fa fa-check" aria-hidden="true"></i> Never forget to renew an expiring qualification</li>
+                            <li class="animated fadeIn" data-id='6'><i class="fa fa-check" aria-hidden="true"></i> Never misplace certificates or training records</li>
+                            <li class="animated fadeIn" data-id='7'><i class="fa fa-check" aria-hidden="true"></i> Never pay to have a qualification verified</li>
+                            <li class="animated fadeIn" data-id='8'><i class="fa fa-check" aria-hidden="true"></i> Never have to file hard copies of qualifications and certificates</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-            <div class="col-sm-6 iphone-content">
-              <h3 class="animated fadeInRightShort" data-id='2'>Do you Know</h3>
-              <h1 class="animated fadeInRightShort" data-id='3'>One Solution</h1>
-              <h2 class="animated fadeInRightShort" data-id='4'>for your Qualifications</h2>
-              <div class="col-sm-12">
-                <ul class="list-unstyled">
-                  <li class="animated fadeIn" data-id='5'><i class="fa fa-check" aria-hidden="true"></i> Never forget to renew an expiring qualification</li>
-                  <li class="animated fadeIn" data-id='6'><i class="fa fa-check" aria-hidden="true"></i> Never misplace certificates or training records</li>
-                  <li class="animated fadeIn" data-id='7'><i class="fa fa-check" aria-hidden="true"></i> Never pay to have a qualification verified</li>
-                  <li class="animated fadeIn" data-id='8'><i class="fa fa-check" aria-hidden="true"></i> Never have to file hard copies of qualifications and certificates</li>
+        </div>
+    </div>
+    <div class="container Section2">
+        <div class="row">
+            <div class="col-sm-12">
+                <h1>Start using BlueQ in 3 easy steps</h1>
+                <div class="col-sm-4">
+                    <div class="circle-icon">
+                        <i class="fa fa-user" aria-hidden="true"></i>
+                    </div>
+                    <p>Sign up now for your BlueQ Personal Account. It's completely FREE</p>
+                </div>
+                <div class="col-sm-4">
+                    <div class="circle-icon">
+                        <i class="fa fa-cloud-upload" aria-hidden="true"></i>
+                    </div>
+                    <p>Easily upload and store all your qualifications securely in the cloud</p>
+                </div>
+                <div class="col-sm-4">
+                    <div class="circle-icon">
+                        <i class="fa fa-check-circle" aria-hidden="true"></i>
+                    </div>
+                    <p>Continuously manage your qualifications and ensure you are always qualified for your role</p>
+                </div>
+                <div class="col-sm-12">
+                    <p class="text-center"><a class="btn btn-primary hvr-icon-hang" href="#" role="button">Sign up</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid Section3 animatedParent animateOnce" data-sequence='500'>
+        <div class="row">
+            <h1 class="section-title">For Individuals</h1>
+            <div class="col-sm-3 ">
+                <div class="col-sm-12">
+                    <div class="media service-box">
+                        <div class="pull-right icon animated fadeInLeftShort slowest" data-id='1'>
+                            <i class="fa fa-briefcase"></i>
+                        </div>
+                        <div class="media-body animated fadeIn slowest" data-id='3'>
+                            <h4 class="media-heading strong-text">Store All-In-One</h4>
+                            <p>Make BlueQ a complete online record of lifelong learning by storing all qualifications and training in one secure account.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 ">
+                    <div class="media service-box ">
+                        <div class="pull-right icon animated fadeInLeftShort slowest" data-id='1'>
+                            <i class="fa fa-globe"></i>
+                        </div>
+                        <div class="media-body animated fadeIn slowest" data-id='3'>
+                            <h4 class="media-heading strong-text">Access on Demand</h4>
+                            <p>Access qualifications anywhere, anytime, on any device with BlueQ’s responsive design.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <img src="img/imac5.png" class="img-responsive img-center">
+                <a href="#" data-toggle="modal" data-target="#myModal">
+                    <img src="img/play-button.png" class="play-button">
+                </a>
+            </div>
+            <div class="col-sm-3 ">
+                <div class="col-sm-12">
+                    <div class="media service-box ">
+                        <div class="pull-left icon animated fadeInRightShort slowest" data-id='2'>
+                            <i class="fa fa-flag"></i>
+                        </div>
+                        <div class="media-body  animated fadeIn slowest" data-id='3'>
+                            <h4 class="media-heading strong-text">Manage Renewals</h4>
+                            <p>Receive notifications when qualifications are expiring and manage their renewal.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12">
+                    <div class="media service-box ">
+                        <div class="pull-left icon animated fadeInRightShort slowest" data-id='2'>
+                            <i class="fa fa-check"></i>
+                        </div>
+                        <div class="media-body  animated fadeIn slowest" data-id='3'>
+                            <h4 class="media-heading strong-text">Verify Qualifications</h4>
+                            <p>Instantly verify qualifications from selected institutions using BlueQ’s innovative verification technology.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container Section4">
+        <div class="row">
+            <div class="col-sm-10 col-sm-offset-1">
+                <ul class="bxslider">
+                    <li>
+                        <div class="col-sm-2"><img src="img/jake-circle.png" class="img-responsive"></div>
+                        <div class="col-sm-10">
+                            <blockquote>
+                                <p>"BlueQ is a simple and affordable solution that I can see being incredibly useful across all codes of junior sport. I hope that BlueQ becomes the industry standard for qualification and accreditation management nationally, to help increase the compliance levels in junior sport."</p>
+                                <footer>Jake McCauley,<cite title="Source Title"> General Manager at South Metro Junior Football League </cite></footer>
+                            </blockquote>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="col-sm-2"><img src="img/jake-circle.png" class="img-responsive"></div>
+                        <div class="col-sm-10">
+                            <blockquote>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet ante ac dolor mattis dictum vel id lectus. Nunc auctor felis neque, et elementum augue aliquet et. Curabitur id ullamcorper mi. Integer vitae tincidunt ligula, nec placerat enim.</p>
+                                <footer>Jake McCauley,<cite title="Source Title"> General Manager at South Metro Junior Football League </cite></footer>
+                            </blockquote>
+                        </div>
+                    </li>
                 </ul>
-              </div>
             </div>
-          </div>
         </div>
-      </div>
-      <div class="container Section2">
-        <div class="row">
-          <div class="col-sm-12">
-            <h1>Start using BlueQ in 3 easy steps</h1>
-            <div class="col-sm-4">
-              <div class="circle-icon">
-                  <i class="fa fa-user" aria-hidden="true"></i>
-              </div>
-              <p>Sign up now for your BlueQ Personal Account. It's completely FREE</p>
-            </div>
-            <div class="col-sm-4">
-              <div class="circle-icon">
-                  <i class="fa fa-cloud-upload" aria-hidden="true"></i>
-              </div>
-              <p>Easily upload and store all your qualifications securely in the cloud</p>
-            </div>
-            <div class="col-sm-4">
-              <div class="circle-icon">
-                  <i class="fa fa-check-circle" aria-hidden="true"></i>
-              </div>
-              <p>Continuously manage your qualifications and ensure you are always qualified for your role</p>
-            </div>
-            <div class="col-sm-12">
-              <p class="text-center"><a class="btn btn-primary hvr-icon-hang" href="#" role="button">Sign up</a></p>
-            </div>
-          </div>  
-        </div>
-      </div>
-      <div class="container-fluid Section3 animatedParent" data-sequence='500'>
-        <div class="row">
-        <h1 class="section-title">For Individuals</h1>
-        <div class="col-sm-3 ">
-          <div class="col-sm-12">
-            <div class="media service-box">
-                <div class="pull-right icon animated fadeInLeftShort slowest" data-id='1'>
-                    <i class="fa fa-briefcase"></i>
-                </div>
-                <div class="media-body animated fadeIn slowest" data-id='3'>
-                    <h4 class="media-heading strong-text">Store All-In-One</h4>
-                    <p>Make BlueQ a complete online record of lifelong learning by storing all qualifications and training in one secure account.</p>
-                </div>
-            </div>
-          </div>
-          <div class="col-sm-12 ">
-            <div class="media service-box ">
-                <div class="pull-right icon animated fadeInLeftShort slowest" data-id='1'>
-                    <i class="fa fa-globe"></i>
-                </div>
-                <div class="media-body animated fadeIn slowest" data-id='3'>
-                    <h4 class="media-heading strong-text">Access on Demand</h4>
-                    <p>Access qualifications anywhere, anytime, on any device with BlueQ’s responsive design.</p>
-                </div>
-            </div>
-          </div>
-        </div>
-          <div class="col-sm-6">
-            <img src="img/imac5.png" class="img-responsive img-center">
-            <a href="#" data-toggle="modal" data-target="#myModal">
-                        <img src="img/play-button.png" class="play-button">
-            </a>
-          </div> 
-          <div class="col-sm-3 ">
-            <div class="col-sm-12">
-              <div class="media service-box ">
-                <div class="pull-left icon animated fadeInRightShort slowest" data-id='2'>
-                    <i class="fa fa-flag"></i>
-                </div>
-                <div class="media-body  animated fadeIn slowest" data-id='3'>
-                    <h4 class="media-heading strong-text">Manage Renewals</h4>
-                    <p>Receive notifications when qualifications are expiring and manage their renewal.</p>
-                </div>
-            </div>
-          </div>
-          <div class="col-sm-12">
-            <div class="media service-box ">
-                <div class="pull-left icon animated fadeInRightShort slowest" data-id='2'>
-                    <i class="fa fa-check"></i>
-                </div>
-                <div class="media-body  animated fadeIn slowest" data-id='3'>
-                    <h4 class="media-heading strong-text">Verify Qualifications</h4>
-                    <p>Instantly verify qualifications from selected institutions using BlueQ’s innovative verification technology.</p>
-                </div>
-            </div>
-          </div>
-          </div>         
-        </div>
-      </div>
-      <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    </div>
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
         <div class="modal-dialog" role="document">
-           <iframe width="480" height="360" src="https://www.youtube.com/embed/WBwg6nWVuM0?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+            <iframe width="480" height="360" src="https://www.youtube.com/embed/WBwg6nWVuM0?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
         </div>
-      </div>
+    </div>
     <!-- Scripts -->
     <script>
-    	$(document).ready(
+        $(document).ready(
 
-      function() { 
-        $("body").niceScroll();
-      }
+                function() {
+                    $("body").niceScroll();
+                }
 
-    );
+        );
     </script>
 
     <script src="js/bootstrap.min.js"></script>
-
+    <script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
     <script src='js/css3-animate-it.js'></script>
 
-  </body>
+    <script type="text/javascript">
+        $('.bxslider').bxSlider({
+            auto: true,
+            autoControls: true,
+            adaptiveHeight:true
+        });
+    </script>
+
+</body>
 
 </html>
 
