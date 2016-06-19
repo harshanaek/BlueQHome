@@ -22,6 +22,9 @@ body{
 img {
     vertical-align: middle;
 }
+.white-text{
+    color:#fff;
+}
 h1{
     color: #000;
     font-weight: 100;
@@ -128,7 +131,9 @@ h1{
   -webkit-animation-direction: normal, alternate;
   animation-direction: normal, alternate;
 }
-
+.section-header {
+    margin-bottom: 50px;
+}
 /*Navigation Styles*/
 
 .navbar-default{
@@ -265,6 +270,9 @@ h1{
     padding-bottom: 30px;
 
 }
+.section-title{
+    text-transform: uppercase;
+}
 .section-title:before {
   content: "";
   position: absolute;
@@ -289,7 +297,7 @@ h1{
 }
 .play-button {
     position: absolute;
-    top: 170px;
+    top: 100px;
     left: 50%;
     margin-left: -63px;
     opacity: 0.6;
@@ -353,6 +361,48 @@ h1{
 .bx-wrapper .bx-viewport{
     box-shadow: none;
 }
+/*Section 5*/
+.Section5{
+    padding-bottom: 30px;
+    padding-top: 30px;
+    background: #5fb6ec;
+}
+.Section5 h1{
+    font-size: 44px;
+    color: #fff;
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 20px;
+    margin: 0 0 20px;
+}
+.Section5 .form-control {
+    border-radius: 0;
+}
+.Section5 .btn{
+    background: #fff;
+    font-size: 20px;
+    color: #5fb6ec;
+    border-radius: 0;
+
+}
+.Section5 p{
+    font-size: 18px;
+}
+/*Footer*/
+#footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #fff;
+    background: #2e2e2e;
+}
+#footer a{
+    color: #fff;
+}
+#footer a:hover{
+    color: #5fb6ec;
+    text-decoration: none;
+}
+
 /*Media Queries*/
 
 /* Small devices (tablets, 768px and up) */
